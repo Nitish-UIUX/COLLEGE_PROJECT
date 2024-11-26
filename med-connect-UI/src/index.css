@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* scroll-behavior: smooth;
+  scroll-padding-top: 12rem; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* write the code for scroll bar  to disappear */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+
+/* Scrollbar track */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #00ffea; /* Color of the scrollbar thumb */
+  border-radius: 1px; /* Rounded corners */
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffa2; /* Color of the scrollbar thumb when hovered */
+}
+
+/* Scrollbar track piece */
+::-webkit-scrollbar-track {
+  background: #7b7b7b16; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: inset 0 0 5px rgb(163, 163, 163); /* Optional shadow inside the track */
+}
+
+/* Scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Color of the corner of the scrollbar */
+}
+.dasd
+{
+  background-color: #00ffea;
+  color: #0065ca;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+/* html {
+  scroll-behavior: smooth;
+  
+} */
